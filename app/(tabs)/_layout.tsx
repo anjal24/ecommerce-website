@@ -3,10 +3,10 @@ import React from 'react'
 import {Tabs} from 'expo-router'
 import {Feather, Ionicons } from '@expo/vector-icons'
 import {COLORS} from '@/constants'
-import {useCart} from '@/context/CartContext'
+// import {useCart} from '@/context/CartContext'
 export default function TabLayout() {
 
-const {cartItems} = useCart()
+const cartItems=[]
 
   
   return (
